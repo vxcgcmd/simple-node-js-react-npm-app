@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh "git config user.name 'xxx'"
+                sh "git config user.name 'vxcgcmd'"
                 sh "git config user.email 'noreply@xyz.com'"
                 sh 'git --version' 
                 sh 'git tag v1.0.1' 
